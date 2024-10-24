@@ -123,13 +123,18 @@ section {
   overflow: hidden;
   border-radius: 0.5rem;
   height: 50rem;
-  width: 35rem;
+  width: auto;
 }
 
 .home .home-slider .swiper-slide img {
   height: 100%;
-  width: 100%;
+  width: auto;
   object-fit: cover;
+}
+
+.home .swiper-container{
+  width: 100%;
+  height: auto;
 }
 
 .heading {
@@ -552,7 +557,7 @@ html::-webkit-scrollbar-thumb {
   #menu-bars {
     display: initial;
   }
-
+  
   .header .navbar {
     position: absolute;
     top: 100%;
