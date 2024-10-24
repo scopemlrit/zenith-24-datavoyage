@@ -544,7 +544,7 @@ html::-webkit-scrollbar-thumb {
   }
 
   section {
-    padding: 2rem;
+    padding: 10rem 3% 2rem;
   }
 }
 
@@ -632,4 +632,8 @@ html::-webkit-scrollbar-thumb {
   color: #eee;
   padding: 1rem 0;
   line-height: 2;
+  word-wrap:break-word;
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%;
 }
