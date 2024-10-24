@@ -7,7 +7,7 @@
 }
 
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -200,7 +200,7 @@ section {
 .about-us .row .image img {
   width: 100%;
   border-radius: 0.5rem;
-  border: 1rem solid #333;
+  border: 1rem solid #bcc6cc;
 }
 
 .about-us .row .content {
@@ -620,7 +620,7 @@ html::-webkit-scrollbar-thumb {
 .about-event .row .image img {
   width: 100%;
   border-radius: 0.5rem;
-  border: 1rem solid #333;
+  border: 1rem solid #c0c0c0;
 }
 
 .about-event .row .content {
@@ -642,3 +642,36 @@ html::-webkit-scrollbar-thumb {
   width: 100%;
   max-width: 100%;
 }
+
+.scope{
+  color: white;
+  font-size: 26px;
+}
+
+.footer .box-container .box .scope-button {
+  display: inline-block;
+  padding: 10px 30px;
+  /* margin-bottom: 50px; */
+  margin-top: 25px;
+  background-color: transparent;
+  border: 2px solid white;
+  width: 200px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.footer .box-container .box .scope-button:hover {
+  background-color: red;
+  color: black;
+}
+
+.footer .box-container .box .logo-section .logo{
+  width: 200px;
+  height: 200px;
+  margin-bottom: 0px;
+}
+
+
+
